@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "assets": ["languages/i18n/**/*", "mail/templates/**/*"],
+    "watchAssets": true
+  }
+}
